@@ -1,0 +1,25 @@
+@model Person
+<h1>This Page for Editing Person @Model.Name</h1>
+<form asp-controller="Person" asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="Id">ID</label>
+        <input class="form-control" type="text" asp-for="Id" value="@Model.Id">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input class="form-control" type="text" asp-for="Name" value="@Model.Name">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Age">Age</label>
+        <input class="form-control" type="text" asp-for="Age" value="@Model.Age">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Image">Person Photo</label>
+        <input class="form-control" type="text" asp-for="Image" value="@Model.Image">
+    </div>
+    <hr>
+    <button class="btn btn-primary">Save</button>
+</form>

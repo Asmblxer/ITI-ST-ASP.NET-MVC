@@ -1,0 +1,29 @@
+@model List<Person>
+@{
+    ViewBag.Title = "Pesons Table";
+    var Persons = Model;
+}
+<h2>Persons Table</h2>
+<table class="table table-hover table-bordered">
+    <thead>
+        <th scope="col">ID </th>
+        <th scope="col">Name </th>
+        <th scope="col">Age </th>
+        <th scope="col">Options</th>
+    </thead>
+    <tbody>
+    @foreach (var item in Persons) {
+        <tr> 
+            <th scope="row">@item.Id</th>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>
+                <a class="btn btn-info" asp-action="Details" asp-route-Id = "@item.Id" >Details</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-Id = "@item.Id" onclick="return confirm('Are You Sure To Delete?')">Delete</a>
+                <a class="btn btn-primary" asp-action="EditForm" asp-route-Id = "@item.Id" >Edit</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-action="AddForm">Add</a>

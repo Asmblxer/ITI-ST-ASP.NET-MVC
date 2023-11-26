@@ -1,0 +1,16 @@
+@{
+    var Car = Model;
+}
+<h1>This is @Car.Manufacturer @Car.Model</h1>
+<figure class= "figure">
+    <img src= @Car.Image class= "figure-img img-fluid rounded" alt= @Car.Model>
+    <figcaption class= "figure-caption">@Car.Manufacturer @Car.Model</figcaption>
+</figure>
+
+<h3>Manufacturer is @Car.Manufacturer</h3>
+<h3>Model is @Car.Model</h3>
+<h4>@Car.HtmlDescription</h4>
+<h5>First use date is : @Car.FirstUseDate</h4>
+<a class="btn btn-info" asp-controller="CarsCtrl" asp-action="Index">Return To List</a>
+
+

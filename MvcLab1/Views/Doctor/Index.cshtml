@@ -1,0 +1,15 @@
+@model IEnumerable<Doctor>
+@{
+    // View a Form of Doctors 
+    ViewBag.Title = "Doctor List";
+    var Doctors = Model;
+    foreach (var doctor in Doctors) {
+        <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src = @doctor.image width="200" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">@doctor.Name</h2>
+            <p class="card-text">Info: @doctor.ToString() </p>
+        </div>
+        </div>
+    }
+}

@@ -1,0 +1,28 @@
+@model List<Car>
+@{
+    ViewBag.Title = "Cars Table";
+    var Cars = Model;
+    int i = 1;
+}
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Manufacturer</th>
+        <th scope="col">Model</th>
+        <th scope="col">Inforamtion</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Cars)
+        {
+            <tr>
+                <th scope="row">@i</th>
+                <td>@car.Manufacturer</td>
+                <td>@car.Model</td>
+                <td> <a class="btn btn-info" asp-action="Details" asp-route-model=@car.Model> More Info</a> </td>
+            </tr>
+            i++;
+        } 
+    </tbody>
+</table>

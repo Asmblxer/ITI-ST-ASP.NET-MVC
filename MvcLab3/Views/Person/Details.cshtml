@@ -1,0 +1,23 @@
+@model Person
+@{
+    var Person = Model;
+    ViewBag.Title = "Details - " + Person.Name;
+}
+<h1>This is Details Page For Person @Person.Name</h1>
+<hr>
+<div >
+    <h3>@Person.Name Photo</h3>
+    <img src=@Person.Image alt="@Person.Name" width="400">
+</div>
+<hr>
+<div>
+    <h3>@Person.Name ID is : @Person.Id</h3>
+</div>
+<hr>
+<div>
+    <h3>@Person.Name Age is : @Person.Age</h3>
+</div>
+<hr>
+<div>
+    <a class="btn btn-primary" asp-action="Index">Return</a>
+</div>

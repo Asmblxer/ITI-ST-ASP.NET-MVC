@@ -1,0 +1,17 @@
+@model Course
+<form asp-controller="TheCtrl" asp-action="AddCourse" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Course Name</label>
+        <input class="form-control" type="text" asp-for="Name">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Description">Course Description</label>
+        <input class="form-control" type="text" asp-for="Description">
+    </div>
+    <hr>
+    <button class="btn btn-primary">Add</button>
+
+</form>
+<hr>
+<a type="button" class="btn btn-primary" asp-action="ShowCourses">Return</a>

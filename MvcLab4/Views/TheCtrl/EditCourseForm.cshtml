@@ -1,0 +1,25 @@
+@model Course
+@{
+    var Course = Model;
+}
+<form asp-controller="TheCtrl" asp-action="EditCourse" method="post">
+    <div class="form-group">
+        <label asp-for="CourseId">Course ID is: @Course.CourseId</label>
+        <input class="form-control" type="hidden" asp-for="CourseId" value="@Model.CourseId">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Name">Course Name</label>
+        <input class="form-control" type="text" asp-for="Name" value="@Model.Name">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Description">Course Description</label>
+        <input class="form-control" type="text" asp-for="Description" value="@Course.Description">
+    </div>
+    <hr>
+    <button class="btn btn-success">Update</button>
+
+</form>
+<hr>
+<a type="button" class="btn btn-primary" asp-action="ShowCourses">Return</a>

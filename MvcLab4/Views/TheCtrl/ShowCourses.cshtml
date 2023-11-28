@@ -1,0 +1,30 @@
+@model IEnumerable<Course>
+@{
+    var courses = Model;
+}
+<h2 style="color: blue;">Courses Table</h2>
+<table class="table table-hover table-bordered">
+    <thead>
+        <th scope="col">Course ID</th>
+        <th scope="col">Course Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Options</th>
+    </thead>
+    <tbody>
+    @foreach (var item in courses) {
+        <tr> 
+            <th scope="row">@item.CourseId</th>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>
+                <a class="btn btn-primary" asp-action="CourseInfo" asp-route-Id = "@item.CourseId" >Details</a>
+                <a class="btn btn-danger" asp-action="DeleteCourse" asp-route-Id = "@item.CourseId" onclick="return confirm('Are You Sure To Delete?')">Delete Course</a>
+                <a class="btn btn-primary" asp-action="EditCourseForm" asp-route-Id = "@item.CourseId" >Edit Course</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-action="AddCourseForm">Add Course</a>
+<hr>
+<a type="button" class="btn btn-primary" asp-action="Index">Return</a>

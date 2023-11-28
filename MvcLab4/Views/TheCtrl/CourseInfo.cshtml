@@ -1,0 +1,15 @@
+@model Course
+@{
+    var course = Model;
+    var students = ViewBag.Students;
+}
+<h1>This is @course.Description Course</h1>
+<h2>Number of Students taking this Course is @students.Count</h2>
+<h3>Students: </h3>
+<ul>
+    @foreach (var student in students)
+    {
+        <li>@student.Name</li>
+    }
+</ul>
+<a type="button" class="btn btn-primary" asp-action="ShowCourses">Return</a>

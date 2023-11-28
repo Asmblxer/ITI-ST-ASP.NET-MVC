@@ -1,0 +1,37 @@
+@model Student
+@{
+    var CoursesList = ViewBag.Courses; 
+    var Student = Model;
+}
+<h1>This Page for Adding Student To The Database</h1>
+<form asp-controller="TheCtrl" asp-action="EditStudent" method="post">
+    <div class="form-group">
+        <label asp-for="StudentId">Student ID is: @Student.StudentId</label>
+        <input class="form-control" type="hidden" asp-for="StudentId" value="@Student.StudentId">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Name">Student Name</label>
+        <input class="form-control" type="text" asp-for="Name" value="@Student.Name">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Age">Student Age</label>
+        <input class="form-control" type="text" asp-for="Age" value="@Student.Age">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="Email">Student Email</label>
+        <input class="form-control" type="text" asp-for="Email" value="@Student.Email">
+    </div>
+    <hr>
+    <div class="form-group">
+        <label asp-for="CourseId">Course</label>
+        <select class="form-select" asp-for="CourseId" asp-items="CoursesList" ></select>
+    </div>
+    <hr>
+    <button class="btn btn-success">Update</button>
+
+</form>
+<hr>
+<a type="button" class="btn btn-primary" asp-action="ShowStudents">Return</a>

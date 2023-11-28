@@ -1,0 +1,15 @@
+@model Student
+@{
+    var Student = Model;
+    var coures = ViewBag.Course;
+}
+<h1>Student Name is : @Student.Name</h1>
+<hr>
+<h3>Student ID is : @Student.StudentId</h3>
+<hr>
+<h3>Student Email is : @Student.Email</h3>
+<hr>
+<h3>Student Age is : @Student.Age</h3>
+<hr>
+<h3>Student Taking Course : @coures.Name</h3>
+<a type="button" class="btn btn-primary" asp-action="ShowStudents">Return</a>

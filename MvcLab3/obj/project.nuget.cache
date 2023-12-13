@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FkW9RSL3yvlALaMqkJSmgkRCRdC7cN8NRku5zmgF+z7YErmADWjR0PY7J2Q9zttlDnQjXGJJUP/00ar6n/Gm5g==",
+  "dgSpecHash": "94JVEyR3XCq9LGjKPNoPJERyqSgtNQZR9kHdV/PRRmyu4cP5ikqijJYY66N8kEtzUwCiM+YXisxn0zU6aFHqCw==",
   "success": true,
-  "projectFilePath": "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/MVC_Lab3.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\MVC_Lab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asmblxer\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Asmblxer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Asmblxer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Asmblxer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

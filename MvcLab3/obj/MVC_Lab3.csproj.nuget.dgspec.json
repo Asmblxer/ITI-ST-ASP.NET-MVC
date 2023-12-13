@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/MVC_Lab3.csproj": {}
+    "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\MVC_Lab3.csproj": {}
   },
   "projects": {
-    "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/MVC_Lab3.csproj": {
+    "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\MVC_Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/MVC_Lab3.csproj",
+        "projectUniqueName": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\MVC_Lab3.csproj",
         "projectName": "MVC_Lab3",
-        "projectPath": "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/MVC_Lab3.csproj",
-        "packagesPath": "/home/asmblxer/.nuget/packages/",
-        "outputPath": "/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/obj/",
+        "projectPath": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\MVC_Lab3.csproj",
+        "packagesPath": "C:\\Users\\Asmblxer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/asmblxer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Asmblxer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -48,6 +48,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -56,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

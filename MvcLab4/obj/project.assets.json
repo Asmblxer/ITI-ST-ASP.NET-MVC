@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1373,7 +1373,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
@@ -1381,29 +1381,29 @@
     ]
   },
   "packageFolders": {
-    "/home/asmbler/.nuget/packages/": {}
+    "C:\\Users\\Asmblxer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/asmbler/Documents/My_Files/TestCode/MvcLab4/MvcLab4.csproj",
+      "projectUniqueName": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab4\\MvcLab4.csproj",
       "projectName": "MvcLab4",
-      "projectPath": "/home/asmbler/Documents/My_Files/TestCode/MvcLab4/MvcLab4.csproj",
-      "packagesPath": "/home/asmbler/.nuget/packages/",
-      "outputPath": "/home/asmbler/Documents/My_Files/TestCode/MvcLab4/obj/",
+      "projectPath": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab4\\MvcLab4.csproj",
+      "packagesPath": "C:\\Users\\Asmblxer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asmblxer\\Downloads\\ITI-Summer-Training-ASP.NET-MVC-Labs\\MvcLab4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/asmbler/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Asmblxer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -1414,8 +1414,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -1457,7 +1457,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

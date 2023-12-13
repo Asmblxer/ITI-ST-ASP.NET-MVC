@@ -9,53 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC_Lab3
 build_property.RootNamespace = MVC_Lab3
-build_property.ProjectDir = /home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/
+build_property.ProjectDir = C:\Users\Asmblxer\Downloads\ITI-Summer-Training-ASP.NET-MVC-Labs\MvcLab3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3
+build_property.MSBuildProjectDirectory = C:\Users\Asmblxer\Downloads\ITI-Summer-Training-ASP.NET-MVC-Labs\MvcLab3
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/AddForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0FkZEZvcm0uY3NodG1s
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/AddForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEFkZEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0RldGFpbHMuY3NodG1s
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/EditForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0VkaXRGb3JtLmNzaHRtbA==
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/EditForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0luZGV4LmNzaHRtbA==
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/asmblxer/Documents/GitHub/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-talqzozjko
+[C:/Users/Asmblxer/Downloads/ITI-Summer-Training-ASP.NET-MVC-Labs/MvcLab3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5xt4f0ll22
